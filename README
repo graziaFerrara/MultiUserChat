@@ -3,7 +3,7 @@ Per eseguire il progetto MultiUserChat in eclipse ho dovuto:
 • scaricare la SDK (io ho usato la versione 21) https://gluonhq.com/products/javafx/
 • in Preferences > JavaFX ho messo il path alla cartella lib della SDK
 • in Preferences > User Libraries ho creato una nuova libreria (che ho chiamato JavaFX e che è presente in questa cartella come zip, ma è
-    sufficiente che contenga i jar contenuti nella cartella lib nella SDK, forse è preferibile ricrearle per assicurarsi la compatibilità)
+    sufficiente che contenga i jar contenuti nella cartella lib nella SDK, forse è preferibile ricrearla per assicurarsi la compatibilità)
 • facendo tasto destro sul progetto in Build Path > Configure BuildPath > Libraries > Modulepath ho aggiunto la libreria JavaFX 
 • durante l'esecuzione in Run Configurations > Arguments > VM arguments ho inserito
     --module-path="/Library/Frameworks/javafx-sdk-21/lib" --add-modules=javafx.controls,javafx.fxml
