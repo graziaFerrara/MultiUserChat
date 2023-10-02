@@ -1,0 +1,12 @@
+Per eseguire il progetto MultiUserChat in eclipse ho dovuto:
+• installare dal Marketplace di Eclipse il pacchetto e(fx)clipse (Help > Eclipse Marketplace)
+• scaricare la SDK (io ho usato la versione 21) https://gluonhq.com/products/javafx/
+• in Preferences > JavaFX ho messo il path alla cartella lib della SDK
+• in Preferences > User Libraries ho creato una nuova libreria (che ho chiamato JavaFX e che è presente in questa cartella come zip, ma è
+    sufficiente che contenga i jar contenuti nella cartella lib nella SDK, forse è preferibile ricrearle per assicurarsi la compatibilità)
+• facendo tasto destro sul progetto in Build Path > Configure BuildPath > Libraries > Modulepath ho aggiunto la libreria JavaFX 
+• durante l'esecuzione in Run Configurations > Arguments > VM arguments ho inserito
+    --module-path="/Library/Frameworks/javafx-sdk-21/lib" --add-modules=javafx.controls,javafx.fxml
+    in quanto richiedeva il path alla SDK
+• per evitare problemi al lancio, ho tolto la spunta all'opzione sottostante "Use the -XstartOnFirstThread argument when aunching with SWT"
+    (sia per il run del server che del client)
