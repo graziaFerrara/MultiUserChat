@@ -13,6 +13,7 @@ The server handles the following functionalities:
 </ol>
 <br/>
 The client allows to:
+<br/>
 <ol>
   <li>Connect to the server using its IP address and port number.</li>
   <li>Allow the user to input a username.</li>
