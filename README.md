@@ -21,6 +21,7 @@ The client allows to:
   <li>Display messages received from other clients.</li>
 </ol> 
 <br/>
+<br/>
 A basic GUI is provided for both the clients and the server.
 <br/>
 <hr/>
