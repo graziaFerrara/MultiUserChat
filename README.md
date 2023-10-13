@@ -3,6 +3,7 @@
 A <b>multi-user chat server</b> listens on a specific <b>TCP</b> port (33333 in this case). The server allows multiple clients to connect concurrently.
 Each client is able to send messages to the server, and the server can broadcast these messages to all other connected clients or to a specific client.
 <br/>
+<br/>
 The server handles the following functionalities:
 <ol>
   <li>Accept new connections from clients.</li>
