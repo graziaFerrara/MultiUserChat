@@ -20,8 +20,7 @@ The client allows to:
   <li>Allow the user to send messages to all other connected clients (<b>BROADCAST</b>) or to a single user (<b>ONE-TO-ONE</b>).</li>
   <li>Display messages received from other clients.</li>
 </ol> 
-<br/>
-<br/>
+
 A basic GUI is provided for both the clients and the server.
 <br/>
 <hr/>
