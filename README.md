@@ -24,6 +24,7 @@ The client allows to:
 A basic GUI is provided for both the clients and the server.
 <br/>
 <hr/>
+<br/>
 To run the project in the Eclipse IDE make sure to:
 <ul>
   <li>install the package <i>e(fx)clipse</i> from the marketplace <i>(Help > Eclipse Marketplace)</i>, or if you have one of the more recent Java versions, it's better to download its nightly version directly from their repository to avoid the bug verifying when creating a FXML document</li>
