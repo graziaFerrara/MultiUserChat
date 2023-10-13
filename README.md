@@ -1,6 +1,6 @@
 # MultiUserChat
 
-A multi-user chat server listens on a specific TCP port (33333 in this case). The server allows multiple clients to connect concurrently.
+A <b>multi-user chat server</b> listens on a specific <b>TCP</b> port (33333 in this case). The server allows multiple clients to connect concurrently.
 Each client is able to send messages to the server, and the server can broadcast these messages to all other connected clients or to a specific client.
 The serverhandles the following functionalities:
 1. Accept new connections from clients.
